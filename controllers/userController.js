@@ -39,7 +39,7 @@ exports.getUsers = async (req, res) => {
   }
 };
 
-/*exports.updateUser = async (req, res) => {
+exports.updateUser = async (req, res) => {
   try {
     const { id } = req.params;
     const { name, email } = req.body;
@@ -60,4 +60,4 @@ exports.deleteUser = async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
-};*/
+};
