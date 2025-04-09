@@ -4,7 +4,7 @@
 2. PostgreSQL
 3. Sequelize ORM
 
-# List of API's to be done:
+# List of API's done:
 1. Login
 2. Register
 3. Add User
